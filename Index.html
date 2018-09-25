@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>OngKos - Cari Kos Mudah</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--css-->
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div>
+		<!--navbar-->
+		<nav class="navbar navbar-expand-md bg-light navbar-light">
+		  	<a class="navbar-brand" href="yow.html"><img src="img/logo.png" class="img-top"></a>
+		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		    	<span class="navbar-toggler-icon"></span>
+		  	</button>
+		  	<div class="collapse navbar-collapse float-right" id="collapsibleNavbar">
+		    	<ul class="navbar-nav">
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="yow.html">Home</a>
+		     		</li>
+		     		<li class="nav-item">
+		        		<a class="nav-link" href="#">Cari Kosan</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">FAQ</a>
+		      		</li>
+		      		<li class="nav-item">
+		        		<a class="nav-link" href="#">About</a>
+		      		</li>    
+		    	</ul>
+		    	<ul class="navbar-nav ml-auto">
+		    		<li class="nav-item">
+		    			<a class="nav-link" href="Tambah Iklan.html"><abbr title="Tambah Iklan" style="cursor: pointer;"><img src="img/tambah-kos.png" width="30" height="30"></abbr></a>
+		    		</li>
+                    <li class="nav-item" id="login">
+                        <a href="Login.html" class="nav-link text-secondary">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Daftar.html" class="nav-link btn btn-outline-secondary">Daftar</a>
+                    </li>
+                </ul>
+		 	</div>
+		</nav><!--navbar-->
+
+		<div class="container">
+			<div id="demo" class="carousel slide" data-ride="carousel">
+				<!--carousel indicator-->
+				<ol class="carousel-indicators">
+			    	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			    	<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			    	<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  	</ol>
+			  <!-- The slideshow -->
+				<div class="carousel-inner" id="parent-container">
+					<div class="carousel-item active">
+						<img src="img/banner1.png">
+					</div>
+					<div class="carousel-item">
+			    		<img src="img/banner2.png">
+					</div>
+					<div class="carousel-item">
+			    		<img src="img/banner3.png">
+					</div>
+				</div><!--div slideshow-->
+			</div><!--nampilin carousel-->
+		</div><!--container carousel-->
+
+		
+		<div class="container">
+			<table class="table  mt-3">
+				<thead>
+					<tr>
+						<th scope="col" colspan="3"><h4 class="text-center"><strong>KOS</strong></h4></th>
+					</tr>
+				</thead>
+			</table><!--table-->
+
+			<div id="cardKos">
+				<!--Card Kosan-->
+				<div class="row" id="yow">
+				</div><!--row-->
+			</div><!--cardKos-->
+			<div class="row">
+				<div class="alert alert-info text-center" id="Tambah" style="cursor:pointer">
+		    		<strong>Lihat Lebih Banyak</strong></a>.
+		  		</div> 		
+			</div><!--row-->
+		</div><!--container card Kos-->
+
+		<div class="container">
+			<div class="row">
+				<a href="Daftar.html"><img id="daftarNow" src="img/daftar.png"></a>	
+			</div>
+		</div><!--container daftar-->
+
+		<div class="container">
+			<div class="hotProm">
+				<table class="table">
+					<thead>
+						<tr>
+							<th scope="col" colspan="3"><h4 class="text-center"><strong>PROMO</strong></h4></th>
+						</tr>
+					</thead>
+				</table><!--table-->
+				<div class="row">
+					<div class="col-md-3">
+						<a href="">
+							<div class="card my-4">
+								<img class="card-img-top" src="img/promo-1.png" alt="Card image cap">
+							</div>	
+						</a>
+					</div><!--column-->
+					<div class="col-md-3">
+						<a href="">
+							<div class="card my-4">
+								<img class="card-img-top" src="img/promo-2.png" alt="Card image cap">
+							</div>	
+						</a>
+					</div><!--column-->
+					<div class="col-md-3">
+						<a href="">
+							<div class="card my-4">
+								<img class="card-img-top" src="img/promo-3.png" alt="Card image cap">
+							</div>	
+						</a>
+					</div><!--column-->
+					<div class="col-md-3">
+						<a href="">
+							<div class="card my-4">
+								<img class="card-img-top" src="img/promo-4.png" alt="Card image cap">
+							</div>	
+						</a>
+					</div><!--column-->
+				</div>
+			</div><!--hotProm-->
+		</div><!--container promo-->
+
+		<div class="footer">
+			<div class="row mx-auto">
+				<div class="col-md-3">
+					<a href="yow.html"><img src="img/logo.png"></a>
+				</div><!--col logo-->
+				<div class="col-md-3">
+					<table>
+						<thead>
+							<tr>
+								<th class="text-muted">PERUSAHAAN</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">Tentang Kami</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Media</a></td>
+							</tr>
+							<tr>
+								<td><a href="">Blog</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!--col perusahaan-->
+				<div class="col-md-3">
+					<table>
+						<thead>
+							<tr>
+								<th class="text-muted">LAYANAN</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">OngKos Wallet</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!--col layanan-->
+				<div class="col-md-3">
+					<table>
+						<thead>
+							<tr>
+								<th class="text-muted">KORPORAT</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">Mitra</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div><!--col korporat-->
+			</div><!--row-->
+			<div class="border-bottom my-5"></div>
+
+			<div class="text-center">
+				<p class="text-muted"><b>KUNJUNGI</b></p>
+				<a href="https://www.facebook.com/jamalakbara"><img src="img/icon-fb.png" width="30px" height="30px"></a>
+				<a href="https://www.instagram.com/jamalakbara"><img src="img/icon-ig.png" width="30px" height="30px"></a>
+				<a href="https://www.twitter.com/jamalakbara"><img src="img/icon-twitter.png" width="30px" height="30px"></a>
+			</div>
+		</div><!--footer-->
+
+		<div class="text-center bg-dark py-3">
+			<span class="text-light">© Copyright • <a href="yow.html" class="text-light">OngKos.com</a></span>
+		</div><!--copyright-->
+	</div><!--div semua-->
+
+	<!--javascript-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  	<script src="js/bootstrap.bundle.min.js"></script>
+  	<script type="text/javascript">
+  		$(document).ready(function(){
+  			$("#Tambah").click(function(){
+  				var addin = $('#cardKos').html();
+  				$('#cardKos').append(addin);
+  				$('#Tambah').hide();
+                $('.card').hover(function(){
+	  				$(this).css("box-shadow","5px 5px 27px #000000");
+	  			},
+	  			function(){
+	  				$(this).css("box-shadow", "0px 0px 0px");	
+	  			});
+  			});/*tambah card kosan*/
+
+  			$('.card').hover(function(){
+  				$(this).css("box-shadow","5px 5px 27px #000000");
+  			},
+  			function(){
+  				$(this).css("box-shadow", "0px 0px 0px");	
+  			});/*hover*/
+
+  			$.getJSON("http://localhost:3000/kosan",function(data){
+                console.log(data);
+                $.each(data,function(key,value){
+                    $('#yow').append(
+                                    '<div class="col-md-4">'
+                                    +'<div class="card my-4">'
+                                    +'<img class="card-img-top" src="'+value.img+'" alt="Card image cap">'
+                                    +'<div class="card-body">'
+                                    +'<h5 class="card-title">'+value.nama+'</h5>'
+                                    +'<p class="card-text">'+value.deskripsi+'</p>'
+                                    +'<a href="Iklan.html" class="btn btn-primary">Lihat</a>'
+                                    +'</div></div></div>'
+                        );
+                }),
+                $('.card').hover(function(){
+	  				$(this).css("box-shadow","5px 5px 27px #000000");
+	  			},
+	  			function(){
+	  				$(this).css("box-shadow", "0px 0px 0px");	
+	  			});
+            });/*ambil data json*/
+  		});
+  	</script>
+</body>
+</html>
